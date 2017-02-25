@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_timestamp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Hello I am Jatin. How are you? I am Jatin How Are you?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_body"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_below="@+id/message_name"
+        android:layout_toEndOf="@+id/message_image"
+        android:textColor="@color/textColorPrimary"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_name"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/message_image"
+        android:layout_width="40dp"
+        android:layout_below="@+id/message_name"
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/picture_frame"
+        android:layout_height="40dp" />
+</RelativeLayout>
