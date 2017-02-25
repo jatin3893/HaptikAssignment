@@ -1,4 +1,4 @@
- Assignment
+Haptik Assignment
 =================
 This application receives data from an endpoint (http://haptik.mobi/android/test_data/) and shows the conversation and summary in different tabs.
 Long press on a message to mark it as a favorite.
