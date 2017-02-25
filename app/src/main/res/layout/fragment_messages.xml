@@ -11,8 +11,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:id="@+id/conversationLayout"></LinearLayout>
+            android:id="@+id/conversationLayout"
+            android:gravity="center_vertical">
+        </LinearLayout>
     </ScrollView>
 
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="true"
+        android:id="@+id/messages_loading" />
 
 </FrameLayout>
