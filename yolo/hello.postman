@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  version: '123'
+  version: '12345'
   title: 'API V8'
   license:
     name: MIT
